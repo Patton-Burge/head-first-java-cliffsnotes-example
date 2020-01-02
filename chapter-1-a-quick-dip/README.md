@@ -1,4 +1,4 @@
-# Chapter One Sumary:
+# A Quick Dip
 
 Chapter One is really broken down into 2 sections. "How it Works" and "Code Structure in Java"
 are the main 2 sections of this chapter. In "How it Works" it goes over the flow of writing and running Java files and a little bit of the history of Java. "Code Structure in Java" goes over some of the syntax,anatomy of a class, and some datatypes that are commonly used.
