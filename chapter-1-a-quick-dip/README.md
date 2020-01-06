@@ -9,6 +9,10 @@ are the main 2 sections of this chapter. In "How it Works" it goes over the flow
 
 The Compiler checks for errors and won't let you compile until it is satisfied with your code. The compiler also creates a new document coded into java bytecode. Compile your code using javac (the compiler application)
 
+- How is java code structured?
+
+Create a source document that you can write your code in. When done or to a certain point compile the code and run it through a JVM(Virtual Java Machine).
+
 - What is the anatomy of a class?
 
 The anatomy of a class is structured in a few main pieces. Public class. Class. Name of the class. Name of the method. The arguments for the method if any. Every statement must end in a semicolon. See Below.
@@ -18,14 +22,18 @@ The anatomy of a class is structured in a few main pieces. Public class. Class. 
     		System.out.print("This is Java!");
     	}
     }
-
+-What is the main method?
+    The Main method is where your program starts running. Your program could be 1000 lines long but without a main method your code will never actually start.The main method is where all the magic happens and what lets the code actually do things.
+    
+-what is a loop?
+    There are 3 types of loops in java: a while loop, a do-while loop, and a for loop. Loops work while the condition is true.It will keep going until it is either false or you break out of the loop.
+    
+-What is conditional branching?
+    Almost like a loop except it wont loop. Think of it like instead of "while theres still a glass" think "if theres still a glass". You can also expand into an if else statement from just a single if statement.
+    
 - Do you have to declare the value type of every variable?
 
   Yes,you declare a variable unlike other languages.
-
-- How does java written code actually work?
-
-Create a source document that you can write your code in. When done or to a certain point compile the code and run it through a JVM(Virtual Java Machine).
 
 - What is the syntax like in java?
 
