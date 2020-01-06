@@ -11,42 +11,42 @@
 
 ## Inheritance
 
-To understand inheritance, think of it as getting a gift from someone. A grandfather gives the same gifts to 4 grandchildren. In this case "grandfather" is the Super class and the 4 grandchildren he has are subclasses. The "gifts" he gives out are his `methods` that the subclasses can use.
+To understand inheritance, think of it as getting a gift from someone. A Father gives a gift to his child. In this case "Father" is the Super class and the child is the subclass. The "gifts" he gives out are his `methods & instance variables` that the subclasses can use.
 
 ```java
-class Grandpa {
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+class Father {
+    void Father_Details() {
+        System.out.println("Father");
         }
     }
 
-class Grandchild extends Grandpa {
-    void Grandchild_Details() {
-        System.out.println("Grandchild");
+class Child extends Father {
+    void Child_Details() {
+        System.out.println("Child");
         }
     }
 ```
 
 ## Overiding methods
 
-The grandchild might not use the gift the exact same way as his grandpa. Same goes for a subclass, just because a subclass inherits methods from a superclass does not mean it has to do the exact same thing. The author of the code can modify the existing methods by overiding it.You do this when you need to change what the method does for that certain subclass or extend the behavior of that method.
+The Child might not use the gift the exact same way as his Father. Same goes for a subclass, just because a subclass inherits methods from a superclass does not mean it has to do the exact same thing. The author of the code can modify the existing methods by overiding it.You do this when you need to change what the method does for that certain subclass or extend the behavior of that method.
 
 ```java
-class Grandpa {
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+class Father {
+    void Father_Details() {
+        System.out.println("Father");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate!")
+    void FatherNate(){
+        System.out.println("Im Father Nate!")
     }
 }
 
-class Grandchild extends Grandpa {
-    void Grandchild_Details() {
-        System.out.println("Grandchild");
+class Child extends Father {
+    void Child_Details() {
+        System.out.println("Child");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate's Grandchild!")
+    void FatherNate(){
+        System.out.println("Im Father Nate's Child!")
     }
 }
 
@@ -64,16 +64,16 @@ When you design a class think about these:
 These are called instance variables. They represent the objects state and can have unique values for each object of that type. The variables below are an example of instance variables.
 
 ```java
-class Grandpa {
+class Father {
 //These are instance variables
     String name;
     String age;
 
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+    void Father_Details() {
+        System.out.println("Father");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate!")
+    void FatherNate(){
+        System.out.println("Im Father Nate!")
     }
 }
 ```
@@ -83,16 +83,16 @@ class Grandpa {
 The thing an object can do are called it's methods. When you design a class, think about what you want the object to do. It is common to have a method that can read, write, and operate on the instance variables given.
 
 ```java
-class Grandpa {
+class Father {
 //These are instance
     String name;
     String age;
 //These are the classes methods
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+    void Father_Details() {
+        System.out.println("Father");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate!")
+    void FatherNate(){
+        System.out.println("Im Father Nate!")
     }
 }
 ```
@@ -111,16 +111,16 @@ When you are creating your first object there are two things you will need:
 ### The class for the object
 
 ```java
-class Grandpa {
+class Father {
 //These are instance
     String name;
     int age;
 //These are the classes methods
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+    void Father_Details() {
+        System.out.println("Father");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate!")
+    void FatherNate(){
+        System.out.println("Im Father Nate!")
     }
 }
 ```
@@ -130,12 +130,12 @@ The example above is a simple class that has instance variables and methods.
 ### A class to test the object
 
 ```java
-public class GrandpaTestDrive{
+public class FatherTestDrive{
     public static void main(String[] args){
-        Grandpa one = new Grandpa();
+        Father one = new Father();
         one.name = "Nate";
         one.age = 28;
-        Grandpa two = new Grandpa();
+        Father two = new Father();
         two.name = "Sean";
         one.age = 30;
     }
@@ -152,24 +152,24 @@ You should have two uses on your main():
 - To launch/start your Java App
 
 ```java
-class Grandpa {
+class Father {
 //These are instance
     String name;
     int age;
 //These are the classes methods
-    void Grandpa_Details() {
-        System.out.println("Grandpa");
+    void Father_Details() {
+        System.out.println("Father");
         }
-    void GrandpaNate(){
-        System.out.println("Im grandpa Nate!")
+    void FatherNate(){
+        System.out.println("Im Father Nate!")
     }
 }
-public class GrandpaTestDrive{
+public class FatherTestDrive{
     public static void main(String[] args){
-        Grandpa one = new Grandpa();
+        Father one = new Father();
         one.name = "Nate";
         one.age = 28;
-        Grandpa two = new Grandpa();
+        Father two = new Father();
         two.name = "Sean";
         one.age = 30;
     }
