@@ -59,7 +59,7 @@ You can't stuff an object into a box. But you can reference a variable, an objec
 
 ## Objects on the Trash
 
-If a variable is referencing an object than the object is still being used. When there is no variable referencing it the object is gone and will need to be re-referenced before being used again.
+If a variable is referencing an object than the object is still being used. When there is no variable referencing it the object is gone. The garbage come in and cleans it up so that space may be made for more things later down the line.
 
 ## Array(s)
 
