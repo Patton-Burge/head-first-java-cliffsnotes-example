@@ -15,13 +15,13 @@ To understand inheritance, think of it as getting a gift from someone. A Father 
 
 ```java
 class Father {
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     }
 
 class Child extends Father {
-    void Child_Details() {
+    void ChildDetails() {
         System.out.println("Child");
         }
     }
@@ -33,7 +33,7 @@ The Child might not use the gift the exact same way as his Father. Same goes for
 
 ```java
 class Father {
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     void FatherNate(){
@@ -42,7 +42,7 @@ class Father {
 }
 
 class Child extends Father {
-    void Child_Details() {
+    void ChildDetails() {
         System.out.println("Child");
         }
     void FatherNate(){
@@ -69,7 +69,7 @@ class Father {
     String name;
     String age;
 
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     void FatherNate(){
@@ -88,7 +88,7 @@ class Father {
     String name;
     String age;
 //These are the classes methods
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     void FatherNate(){
@@ -116,7 +116,7 @@ class Father {
     String name;
     int age;
 //These are the classes methods
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     void FatherNate(){
@@ -137,7 +137,7 @@ public class FatherTestDrive{
         one.age = 28;
         Father two = new Father();
         two.name = "Sean";
-        one.age = 30;
+        two.age = 30;
     }
 }
 ```
@@ -157,7 +157,7 @@ class Father {
     String name;
     int age;
 //These are the classes methods
-    void Father_Details() {
+    void FatherDetails() {
         System.out.println("Father");
         }
     void FatherNate(){
