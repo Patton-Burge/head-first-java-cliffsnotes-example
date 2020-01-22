@@ -1,12 +1,5 @@
 # Chapter 5
 
-## Table of Contents
-
-- High Level Design
-- Random Numbers
-- For Loops!!!
-- Primitive from large -> smaller
-- Converting Strings
 
 ## High Level Design
 
