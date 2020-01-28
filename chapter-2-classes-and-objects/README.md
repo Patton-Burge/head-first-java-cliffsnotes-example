@@ -87,7 +87,7 @@ class Father {
 //These are instance
     String name;
     String age;
-//These are the classes methods
+//These are the static methods
     void FatherDetails() {
         System.out.println("Father");
         }
