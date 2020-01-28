@@ -15,13 +15,13 @@ To understand inheritance, think of it as getting a gift from someone. A Father 
 
 ```java
 class Father {
-    void FatherDetails() {
+    void fatherDetails() {
         System.out.println("Father");
         }
     }
 
 class Child extends Father {
-    void ChildDetails() {
+    void childDetails() {
         System.out.println("Child");
         }
     }
@@ -33,19 +33,19 @@ The Child might not use the gift the exact same way as his Father. Same goes for
 
 ```java
 class Father {
-    void FatherDetails() {
+    void fatherDetails() {
         System.out.println("Father");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate!")
     }
 }
 
 class Child extends Father {
-    void ChildDetails() {
+    void childDetails() {
         System.out.println("Child");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate's Child!")
     }
 }
@@ -69,10 +69,10 @@ class Father {
     String name;
     String age;
 
-    void FatherDetails() {
+    void fatherDetails() {
         System.out.println("Father");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate!")
     }
 }
@@ -87,11 +87,11 @@ class Father {
 //These are instance
     String name;
     String age;
-//These are the classes methods
-    void FatherDetails() {
+//These are the static methods
+    void fatherDetails() {
         System.out.println("Father");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate!")
     }
 }
@@ -115,11 +115,11 @@ class Father {
 //These are instance
     String name;
     int age;
-//These are the classes methods
-    void FatherDetails() {
+//These are the static methods
+    void fatherDetails() {
         System.out.println("Father");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate!")
     }
 }
@@ -156,11 +156,11 @@ class Father {
 //These are instance
     String name;
     int age;
-//These are the classes methods
-    void FatherDetails() {
+//These are the static methods
+    void fatherDetails() {
         System.out.println("Father");
         }
-    void FatherNate(){
+    void fatherNate(){
         System.out.println("Im Father Nate!")
     }
 }
