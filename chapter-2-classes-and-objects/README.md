@@ -88,7 +88,11 @@ class Father {
     String name;
     String age;
 //These are the static methods
+<<<<<<< HEAD
     void fatherDetails() {
+=======
+    void FatherDetails() {
+>>>>>>> 963c71102cd0785445793770c163ba80a99cdecc
         System.out.println("Father");
         }
     void fatherNate(){
